@@ -5,11 +5,11 @@ from random import randint
 
 #Cores
 PRETO = (0,0,0)
-AZUL = (0,0,255)
+AZUL = (0,255,255)
 
 #Tamanho da janela
-COMPRIMENTOJANELA=440
-ALTURAJANELA=510
+COMPRIMENTOJANELA=660
+ALTURAJANELA=610
 
 #Direccoes
 CIMA = 8
@@ -18,7 +18,7 @@ ESQUERDA=4
 DIREITA=6
 
 #Bloco (unidade de tamanho)
-bloco=[18,18]
+bloco=[50, 50]
 
 #Quadrado
 #funcao rect(X, Y, largura, altura)
